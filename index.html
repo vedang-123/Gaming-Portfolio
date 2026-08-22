@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedang Buchake — Game Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!--
+  HOW TO ADD YOUR GAME SCREENSHOTS / GIFS
+  ----------------------------------------
+  Each project card has an empty <img class="game-img" src="" ...>.
+  Just put your image filename (or a hosted URL) in that src attribute, e.g:
+      <img class="game-img" src="chess-star-screenshot.jpg" alt="Chess Star VR gameplay">
+  Until you do, a placeholder box shows automatically so the layout never breaks.
+  Recommended size: 800x500px landscape, JPG/PNG/GIF under 2MB.
+-->
+
+<nav>
+  <div class="wrap">
+   <div class="nav-mark">VEDANG<span>.</span>GAMEDEV</div>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-wrap">
+    <div class="hero-text">
+      <div class="hero-eyebrow"><span class="dot"></span><span class="label">Open to new opportunities</span></div>
+      <h1>VEDANG BUCHAKE</h1>
+      <h2 class="hero-role">UNREAL ENGINE DEVELOPER — C++ · VR · MULTIPLAYER</h2>
+      <p class="hero-desc">Unreal Engine developer specializing in C++, Blueprints, VR gameplay, and multiplayer systems. Built and shipped VR games for Meta Quest, with hands-on experience in gameplay logic, physics, networking, performance optimization, and deployment.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-solid">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="img-slot img-slot-hero">
+        <img class="game-img" src="Images/Hero2Image.png" alt="Featured gameplay showcase">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h3>Profile</h3><div class="sec-rule"></div></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Game developer with hands-on experience building complete, shipped titles rather than just prototypes. I've taken projects from first mechanic to published product — including a full VR chess game on the Meta Quest Store and a physics-based VR pool game with realistic ball dynamics.</p>
+        <p>Currently building multiplayer systems: LAN host discovery, spline-based movement, and animation integration for team-built VR environments. Previously designed scalable, modular architecture for turn-based board game systems.</p>
+      </div>
+      <div class="specsheet reveal">
+        <div class="sh-title">Quick Facts</div>
+        <div class="spec-row"><span class="k">Location</span><span class="v">Mumbai, Maharashtra</span></div>
+        <div class="spec-row"><span class="k">Engine</span><span class="v">Unreal Engine 5</span></div>
+        <div class="spec-row"><span class="k">Core Skills</span><span class="v">C++, Blueprints</span></div>
+        <div class="spec-row"><span class="k">Specialty</span><span class="v">VR &amp; Multiplayer</span></div>
+        <div class="spec-row"><span class="k">Education</span><span class="v">B.Sc. IT, 2025</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h3>Games I've Built</h3><div class="sec-rule"></div></div>
+
+    <!-- Chess Star -->
+    <div class="game-card reveal">
+      <div class="img-slot">
+        <img class="game-img" src="Images/ChessImage.webp" alt="Chess Star VR gameplay screenshot">
+      </div>
+      <div class="game-body">
+        <span class="status">Published · Meta Quest Store</span>
+        <h4>Chess Star VR</h4>
+        <div class="stack">Unreal Engine 5 · C++ · Blueprints · VR</div>
+        <ul>
+          <li>Full chess ruleset in VR — legal move validation, captures, check detection, pawn promotion.</li>
+          <li>Motion-controller interaction with collision-based piece selection.</li>
+          <li>Performance and UI tuned specifically for standalone Meta Quest hardware.</li>
+          <li>Shipped end-to-end and published live on the Meta Quest Store.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Meta Quest</span>
+          <span class="tag">Solo Developer</span>
+          <span class="tag">Rules Engine</span>
+        </div>
+        <a href="https://www.meta.com/en-gb/experiences/chess-star/25082836024745385/" class="link-out">View on Meta Quest Store →</a>
+      </div>
+    </div>
+
+    <!-- VR Pool -->
+    <div class="game-card reveal">
+      <div class="img-slot">
+        <img class="game-img" src="Images/VRPoolTableImage.png" alt="VR Pool gameplay screenshot">
+      </div>
+      <div class="game-body">
+        <span class="status">Complete · Standalone Build</span>
+        <h4>VR Pool</h4>
+        <div class="stack">Unreal Engine 5 · C++ · Blueprints · VR Physics</div>
+        <ul>
+          <li>Realistic ball physics with accurate collision handling and cue ball movement.</li>
+          <li>Motion-controller cue aiming and striking for natural, immersive interaction.</li>
+          <li>Gameplay logic for hit detection, force application, and table boundary collisions.</li>
+          <li>Physics simulation optimized for smooth performance on standalone VR hardware.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Standalone VR</span>
+          <span class="tag">Solo Developer</span>
+          <span class="tag">Physics</span>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><h3>Experience</h3><div class="sec-rule"></div></div>
+    <div class="timeline">
+      <div class="tl-entry">
+        <span class="tl-tag tl-tag-current">Current</span>
+        <h4>Unreal Engine Developer — Smart Magic Production</h4>
+        <div class="tl-meta">Full-Time · Mumbai, Maharashtra · April 2026 — Present</div>
+        <ul>
+          <li>Building multiplayer VR systems in Unreal Engine using C++ and Blueprints.</li>
+          <li>Implemented UDP broadcast-based host discovery for automatic LAN client detection.</li>
+          <li>Developed spline-based movement logic and integrated teammate-created animations.</li>
+          <li>Owned VR APK build settings, packaging, and deployment optimization.</li>
+        </ul>
+      </div>
+      <div class="tl-entry">
+        <span class="tl-tag">Previous</span>
+        <h4>Unreal Engine Developer — BlackHole InfiVerse</h4>
+        <div class="tl-meta">Full-Time · Mumbai, Maharashtra · June 2025 — April 2026</div>
+        <ul>
+          <li>Developed and optimized gameplay systems using Unreal Engine 5 with C++ and Blueprints.</li>
+          <li>Improved FPS through code optimization, rendering technique changes, and system-level profiling.</li>
+          <li>Deployed VR applications to Meta headsets via OpenXR, ensuring stability across devices.</li>
+          <li>Designed scalable board-game architecture with turn-based logic and modular tile framework.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><h3>Skills</h3><div class="sec-rule"></div></div>
+    <div class="legend reveal">
+      <div class="legend-cell">
+        <div class="lc-label">Game Development</div>
+        <div class="chip-row">
+          <span class="chip">Unreal Engine 5</span><span class="chip">C++</span><span class="chip">Blueprints</span>
+          <span class="chip">VR Development</span><span class="chip">Multiplayer Networking</span><span class="chip">UDP / LAN</span>
+        </div>
+      </div>
+      <div class="legend-cell">
+        <div class="lc-label">Programming Languages</div>
+        <div class="chip-row">
+          <span class="chip">C++</span><span class="chip">Java</span><span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="legend-cell">
+        <div class="lc-label">Tools &amp; IDEs</div>
+        <div class="chip-row">
+          <span class="chip">Visual Studio</span><span class="chip">Git</span><span class="chip">Postman</span><span class="chip">Eclipse</span>
+        </div>
+      </div>
+      <div class="legend-cell">
+        <div class="lc-label">Web Technologies</div>
+        <div class="chip-row">
+          <span class="chip">Spring Boot</span><span class="chip">MySQL</span><span class="chip">Thymeleaf</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact-block reveal">
+      <div class="contact-top">
+        <h3>Let's build something worth playing.</h3>
+        <a href="mailto:buchakevedang97@gmail.com" class="btn btn-solid">Email Me</a>
+      </div>
+      <div class="contact-fields">
+        <div class="cf"><div class="cf-k">Email</div><div class="cf-v"><a href="mailto:buchakevedang97@gmail.com">buchakevedang97@gmail.com</a></div></div>
+        <div class="cf"><div class="cf-k">Phone</div><div class="cf-v">+91 80102 04087</div></div>
+        <div class="cf"><div class="cf-k">LinkedIn</div><div class="cf-v"><a href="https://linkedin.com/in/vedang-buchake" target="_blank">/in/vedang-buchake</a></div></div>
+        <div class="cf"><div class="cf-k">GitHub</div><div class="cf-v"><a href="https://github.com/vedang-123" target="_blank">/vedang-123</a></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Vedang Buchake — Game Developer</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
