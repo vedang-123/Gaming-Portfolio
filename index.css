@@ -248,7 +248,7 @@ nav .wrap{ display:flex; align-items:center; justify-content:space-between; heig
 }
 .cf:hover{ border-color:var(--border-hover); transform:translateY(-2px); }
 .cf .cf-k{ font-family:'IBM Plex Mono', monospace; font-size:0.62rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-dimmer); margin-bottom:8px; }
-.cf .cf-v{ font-family:'IBM Plex Mono', monospace; font-size:0.88rem; color:var(--text-primary); }
+.cf .cf-v{ font-family:'IBM Plex Mono', monospace; font-size:0.88rem; color:var(--text-primary); overflow-wrap: anywhere; }
 .cf a:hover{ color:var(--accent); }
 
 footer{ text-align:center; padding:36px 0; font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--text-dimmer); }
